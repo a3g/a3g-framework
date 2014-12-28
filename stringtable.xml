@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="A3G Mission Template">
+	<Package name="Descriptors">
+		<Container name="Mission">
+			<Key ID="A3G_str_missionName">
+				<Original>
+					<!-- Put your mission name here -->
+					Really cool mission
+				</Original>				
+			</Key>
+			<Key ID="A3G_str_missionDescription">
+				<Original>
+					<!-- Put your mission description here -->
+					Made with A3G mission template
+				</Original>
+			</Key>
+			<Key ID="A3G_str_author">
+				<Original>
+					<!-- Put your name here -->
+					Cool dude
+				</Original>
+			</Key>
+		</Container>
+	</Package>
+</Project>

@@ -1,19 +1,29 @@
-
-
-
 // ------------------------------------------------------------------------------------------------
 // ------------------------------------------- Includes -------------------------------------------
 // ------------------------------------------------------------------------------------------------
 
 class CfgFunctions {
 	#include "a3g-loadout\CfgFunctions.hpp"
+	#include "config\functions\cfgFunctions.hpp"
 };
 
-#include "config\loadout.hpp"
+#include "config\loadouts.hpp"
+
+class Header {
+	#include "config\gameType.hpp"
+	#include "config\playerNumbers.hpp"
+};
 
 
 // ------------------------------------------------------------------------------------------------
-// ------------------------------------------- Includes -------------------------------------------
+// ---------------------------------------- Standard stuff ----------------------------------------
 // ------------------------------------------------------------------------------------------------
 
-disabledAI = 1;
+disabledAI = 1;				// Disables AI in the lobby
+joinUnassigned = 0;			// Makes players fill slots automatically
+enableDebugConsole = 1;		// Enables debug console for admins
+
+author = "@A3G_str_author";
+onLoadName = "@A3G_str_missionName";
+onLoadMission = "@A3G_str_missionDescription";
+loadScreen = "config\img\logo.paa";
