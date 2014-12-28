@@ -1,5 +1,6 @@
 [] execVM "config\scripts\clientSide.sqf";
 
+// Title card thingy
 [
 	[
 		[localize "A3G_str_missionName",
