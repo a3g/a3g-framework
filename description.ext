@@ -14,6 +14,7 @@ class Header {
 	#include "config\playerNumbers.hpp"
 };
 
+#include "config\description.ext"
 
 // ------------------------------------------------------------------------------------------------
 // ---------------------------------------- Standard stuff ----------------------------------------
@@ -26,4 +27,4 @@ enableDebugConsole = 1;		// Enables debug console for admins
 author = "@A3G_str_author";
 onLoadName = "@A3G_str_missionName";
 onLoadMission = "@A3G_str_missionDescription";
-loadScreen = "config\img\logo.paa";
+loadScreen = "config\logo\logo.paa";
