@@ -4,7 +4,7 @@
 
 class CfgFunctions {
 	#include "a3g-loadout\CfgFunctions.hpp"
-	#include "config\functions\cfgFunctions.hpp"
+	#include "cfgFunctions.hpp"
 };
 
 #include "config\loadouts.hpp"
