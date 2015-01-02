@@ -1,1 +1,1 @@
-[] execVM "config\scripts\serverSide.sqf";
+[] execVM "config\general\serverSide.sqf";

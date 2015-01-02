@@ -5,19 +5,19 @@
 			<Key ID="A3G_str_missionName">
 				<Original>
 					<!-- Put your mission name here -->
-					Really cool mission
+					Mission title
 				</Original>				
 			</Key>
 			<Key ID="A3G_str_missionDescription">
 				<Original>
 					<!-- Put your mission description here -->
-					Made with A3G mission template
+					Mission description
 				</Original>
 			</Key>
 			<Key ID="A3G_str_author">
 				<Original>
 					<!-- Put your name here -->
-					Really cool dude
+					Mission author
 				</Original>
 			</Key>
 		</Container>

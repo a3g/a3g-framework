@@ -1,5 +1,3 @@
-[] execVM "config\scripts\clientSide.sqf";
-
 // Title card thingy
 [
 	[
@@ -17,3 +15,7 @@
 		]
 	]
 ] spawn BIS_fnc_typeText2;
+
+[] execVM "config\briefing\briefing.sqf";
+[] execVM "config\general\clientSide.sqf";
+
