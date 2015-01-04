@@ -23,6 +23,7 @@ class Header {
 disabledAI = 1;				// Disables AI in the lobby
 joinUnassigned = 0;			// Makes players fill slots automatically
 enableDebugConsole = 1;		// Enables debug console for admins
+respawn = 4;				// JIP respawn, consumes slots for now
 
 author = "@A3G_str_author";
 onLoadName = "@A3G_str_missionName";
