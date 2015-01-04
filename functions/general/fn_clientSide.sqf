@@ -1,7 +1,7 @@
 // Title card thingy
 [
 	[
-		[localize "A3G_str_missionName",
+		[localize "A3G_str_missionNameShort",
 			"align = 'center',
 			shadow = '1',
 			size = '1',

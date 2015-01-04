@@ -10,11 +10,7 @@ class CfgFunctions {
 };
 
 #include "config\loadouts.hpp"
-
-class Header {
-	#include "config\metaData.hpp"
-};
-
+#include "config\metaData.hpp"
 #include "config\general\description.ext"
 
 // ------------------------------------------------------------------------------------------------
@@ -30,7 +26,6 @@ respawn = 4;										// JIP respawn, consumes slots for now
 // ----------------------------------------- Presentation -----------------------------------------
 // ------------------------------------------------------------------------------------------------
 
-author = "@A3G_str_author";
-onLoadName = "@A3G_str_missionName";
+onLoadName = "@A3G_str_missionNameShort";
 onLoadMission = "@A3G_str_missionDescription";
 loadScreen = "config\logo\logo.paa";
