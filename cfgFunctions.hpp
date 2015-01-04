@@ -1,7 +1,11 @@
 class A3G_Mission_Template {
-	class Functions {
-		file = "functions";		
-		class MakeTask {};
-		class UpdateTask {};
+	class General {
+		file = "functions\general";
+		class ClientSide {
+			postInit = 1;
+		};
+		class ServerSide {
+			postInit = 1;
+		};
 	};
 };

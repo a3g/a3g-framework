@@ -1,6 +1,6 @@
 // ------------------------------------------------------------------------------------------------
 // ----------------------------------- Setup your loadouts here -----------------------------------
-// ------ Refer to https://github.com/a3g/a3g-loadout/blob/master/README.md for instructions ------
+// -- Refer to https://github.com/a3g/a3g-loadout/blob/master/README.md#loadouts for instructions -
 // ------------------------------------------------------------------------------------------------
 
 class CfgLoadouts {

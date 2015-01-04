@@ -1,1 +1,1 @@
-Put your logo here, be sure to keep the name
+Put your logo here, be sure to keep the name "logo.paa".
