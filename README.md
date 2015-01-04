@@ -11,3 +11,7 @@ How-To
 - Start editing to your hearts content.
 
 The only files you need to edit are in the `config` folder and `stringTable.xml`, leave everything else alone.
+
+Important
+---------
+The github zip download on the right does NOT include the submodule `a3g-loadout`, grab it from the actual project instead at https://github.com/a3g/a3g-loadout
