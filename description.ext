@@ -6,7 +6,7 @@
 
 class CfgFunctions {
 	#include "a3g-loadout\cfgFunctions.hpp"
-	#include "cfgFunctions.hpp"
+	#include "config\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
