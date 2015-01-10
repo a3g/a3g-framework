@@ -1,1 +1,1 @@
-Put your logo here, be sure to keep the name "logo.paa".
+Put your logo in this folder, make sure to keep the name "logo.paa".
