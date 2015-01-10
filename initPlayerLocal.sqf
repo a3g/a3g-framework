@@ -17,5 +17,4 @@
 ] spawn BIS_fnc_typeText2;
 
 [] execVM "config\briefing.sqf";
-
 [] execVM "config\general\clientSide.sqf";
