@@ -9,4 +9,3 @@ respawn = "BASE";
 // Can be one of: A3G_Respawn_JipNoRespawn
 
 respawnTemplates[] = {"A3G_Respawn_JipNoRespawn"};
-
