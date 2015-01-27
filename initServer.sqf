@@ -1,1 +1,0 @@
-[] execVM "config\general\serverSide.sqf";

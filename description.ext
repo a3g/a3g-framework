@@ -4,15 +4,33 @@
 // ------------------------------------------- Includes -------------------------------------------
 // ------------------------------------------------------------------------------------------------
 
+class CfgDebriefing {
+	class End1 {
+		title = "Mission Accomplished";
+		subtitle = "You won";
+		pictureBackground = "config\logo\logo.paa";
+		picture = "mil_circle";
+		pictureColor[] = { 0.0, 0.3, 0.6, 1 };
+	};
+	class Loser {
+		title = "Mission Failed";
+		subtitle = "You lost";
+		pictureBackground = "config\logo\logo.paa";
+		picture = "mil_objective";
+		pictureColor[] = { 0.6, 0.3, 0.0, 1 };
+	};
+};
+
 class CfgFunctions {
 	#include "a3g-loadout\cfgFunctions.hpp"
 	#include "config\cfgFunctions.hpp"
+	#include "cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
     class A3G_Respawn_JipNoRespawn {
         onPlayerKilled = "a3g-respawn\jipNoRespawn.sqf";
-		respawnDelay = 10e10;
+		respawnDelay = 1e10;
     };
 };
 
@@ -20,7 +38,7 @@ class CfgRespawnTemplates {
 #include "config\loadouts.hpp"
 #include "config\respawn.hpp"
 
-#include "config\general\description.ext"
+#include "config\generic\description.ext"
 
 
 // ------------------------------------------------------------------------------------------------
