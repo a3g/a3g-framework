@@ -1,7 +1,1 @@
 // In case there is something else you need to add to the description.ext
-
-// Uncomment to enable respawn system
-// enableRespawn = true;
-
-// Time until people respawn. Will appear as mission parameter
-// respawnTime = 60;

@@ -1,7 +1,7 @@
 _center = createCenter sideLogic;
 _group = createGroup _center;
 
-sleep 2;	// Can't stay like this
+sleep 3;	// Can't stay like this, needs some condition or some shit.
 
 _module = _group createUnit["AGM_ModuleMedical", [0,0,0], [], 0, "NONE"];
 _module setVariable["CoefNonMedic", 4];

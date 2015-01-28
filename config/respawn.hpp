@@ -9,4 +9,4 @@ respawn = "BASE";
 // Again, unless you're very sure you want to change these, don't touch them.
 // Can be one of: A3GSpectatorCam
 
-respawnTemplates[] = {"A3GSpectatorCam"};
+respawnTemplates[] = {"A3G_SpectatorCam"};
