@@ -3,46 +3,30 @@ class Mission
 {
 	addOns[]=
 	{
-		"BWA3_Units",
 		"map_vr"
 	};
 	addOnsAuto[]=
 	{
-		"BWA3_Units",
 		"map_vr"
 	};
-	randomSeed=8257249;
+	randomSeed=1578369;
 	class Intel
 	{
 		briefingName="@A3G_str_missionNameFull";
 		overviewText="@A3G_str_missionDescription";
-		startWind=0.1;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		startFogDecay=0.0049333;
-		forecastFogDecay=0.0049333;
-	};
-	class Groups
-	{
-		items=1;
-		class Item0
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={3931.5391,5,4129.9468};
-					id=0;
-					side="WEST";
-					vehicle="BWA3_Rifleman_Fleck";
-					player="PLAYER COMMANDER";
-					leader=1;
-					skill=0.60000002;
-				};
-			};
-		};
+		startWeather=0;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=35;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
 class Intro
@@ -55,14 +39,23 @@ class Intro
 	{
 		"map_vr"
 	};
-	randomSeed=1689410;
+	randomSeed=9442407;
 	class Intel
 	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
 		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
 		forecastWind=0.1;
 		forecastWaves=0.1;
-		startFogDecay=0.0049333;
-		forecastFogDecay=0.0049333;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
 class OutroWin
@@ -75,14 +68,23 @@ class OutroWin
 	{
 		"map_vr"
 	};
-	randomSeed=8744221;
+	randomSeed=2805901;
 	class Intel
 	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
 		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
 		forecastWind=0.1;
 		forecastWaves=0.1;
-		startFogDecay=0.0049333;
-		forecastFogDecay=0.0049333;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
 class OutroLoose
@@ -95,13 +97,22 @@ class OutroLoose
 	{
 		"map_vr"
 	};
-	randomSeed=1999021;
+	randomSeed=7513266;
 	class Intel
 	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
 		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
 		forecastWind=0.1;
 		forecastWaves=0.1;
-		startFogDecay=0.0049333;
-		forecastFogDecay=0.0049333;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };

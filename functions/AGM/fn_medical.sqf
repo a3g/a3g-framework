@@ -1,16 +1,11 @@
-_center = createCenter sideLogic;
-_group = createGroup _center;
-
-sleep 3;	// Can't stay like this, needs some condition or some shit.
-
-_module = _group createUnit["AGM_ModuleMedical", [0,0,0], [], 0, "NONE"];
-_module setVariable["CoefNonMedic", 4];
-_module setVariable["MaxUnconsciousnessTime", 60];
-_module setVariable["AllowNonmedics", true];
-_module setVariable["RequireDiagnosis", true];
-_module setVariable["PreventInstaDeath", true];
-_module setVariable["PreventDeathWhileUnconscious", true];
-_module setVariable["SingleBandage", true];
-_module setVariable["EnableOverdosing", false];
-
-asd = _module;		// Needs to be removed
+// Set new default settings for AGM medical, when the user didn't place a medical module
+if( isNil "AGM_Medical_Module" ) then {
+	AGM_Medical_CoefNonMedic = 4;
+	AGM_Medical_MaxUnconsciousnessTime = "A3G_Template_BleedoutTime" call bis_fnc_getParamValue;
+	AGM_Medical_AllowNonMedics = 1;
+	AGM_Medical_RequireDiagnosis = 1;
+	AGM_Medical_PreventInstaDeath = 1;
+	AGM_Medical_PreventDeathWhileUnconscious = 1;
+	AGM_Medical_SingleBandage = 1;
+	AGM_Medical_EnableOverdosing = 0;
+};
