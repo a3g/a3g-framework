@@ -5,31 +5,23 @@
 // ------------------------------------------------------------------------------------------------
 
 class CfgDebriefing {
-	class End1 {
-		title = "Mission Accomplished";
-		subtitle = "You won";
-		pictureBackground = "config\logo\logo.paa";
-		picture = "mil_circle";
-		pictureColor[] = { 0.0, 0.3, 0.6, 1 };
-	};
-	class Loser {
-		title = "Mission Failed";
-		subtitle = "You lost";
-		pictureBackground = "config\logo\logo.paa";
-		picture = "mil_objective";
-		pictureColor[] = { 0.6, 0.3, 0.0, 1 };
-	};
+	#include "include\cfgDebriefing.hpp"
 };
 
 class CfgFunctions {
 	#include "a3g-loadout\cfgFunctions.hpp"
 	#include "a3g-spectatorcam\cfgFunctions.hpp"
 	#include "config\cfgFunctions.hpp"
-	#include "cfgFunctions.hpp"
+	#include "include\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
 	#include "a3g-spectatorcam\cfgRespawnTemplates.hpp"
+};
+
+class Params {
+	#include "include\params.hpp"
+	#include "config\parameters.hpp"
 };
 
 class RscTitles {
