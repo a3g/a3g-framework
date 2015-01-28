@@ -7,6 +7,6 @@ respawn = "BASE";
 
 // Respawn template selection. This decides for example whether or not people can respawn at all, or if they can only JIP.
 // Again, unless you're very sure you want to change these, don't touch them.
-// Can be one of: A3G_Respawn_JipNoRespawn
+// Can be one of: A3GSpectatorCam
 
-respawnTemplates[] = {"A3G_Respawn_JipNoRespawn"};
+respawnTemplates[] = {"A3GSpectatorCam"};

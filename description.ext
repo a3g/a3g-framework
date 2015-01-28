@@ -23,15 +23,17 @@ class CfgDebriefing {
 
 class CfgFunctions {
 	#include "a3g-loadout\cfgFunctions.hpp"
+	#include "a3g-spectatorcam\cfgFunctions.hpp"
 	#include "config\cfgFunctions.hpp"
 	#include "cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
-    class A3G_Respawn_JipNoRespawn {
-        onPlayerKilled = "a3g-respawn\jipNoRespawn.sqf";
-		respawnDelay = 1e10;
-    };
+	#include "a3g-spectatorcam\cfgRespawnTemplates.hpp"
+};
+
+class RscTitles {
+	#include "a3g-spectatorcam\rscTitles.hpp"
 };
 
 #include "config\metaData.hpp"
