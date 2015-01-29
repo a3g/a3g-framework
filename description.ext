@@ -9,10 +9,11 @@ class CfgDebriefing {
 };
 
 class CfgFunctions {
+	#include "include\cfgFunctions.hpp"
 	#include "a3g-loadout\cfgFunctions.hpp"
 	#include "a3g-spectatorcam\cfgFunctions.hpp"
+
 	#include "config\cfgFunctions.hpp"
-	#include "include\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {

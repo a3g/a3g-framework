@@ -1,6 +1,6 @@
 class A3G_Template {
 	class Generic {
-		file = "functions";
+		file = "functions\generic";
 		class PreInit {
 			preInit = 1;
 		};
@@ -22,15 +22,8 @@ class A3G_Template {
 	};
 
 	class AGM {
-		file = "functions\AGM";
+		file = "functions\agm";
 		class Medical {
-			postInit = 1;
-		};
-	};
-
-	class HC {
-		file = "functions\HC";
-		class Convert {
 			postInit = 1;
 		};
 	};

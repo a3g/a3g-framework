@@ -1,8 +1,8 @@
-class A3G_Template_Spacer1 {
-	title = "====================================================================================================";
-};
 class A3G_Template_Title1 {
-	title = "-> A3G Mission Template General Parameters:";
+	title = "> General Parameters:";
+	values[] = { 0 };
+	texts[] = {""};
+	default = 0;
 };
 class A3G_Template_BleedoutTime {
 	title = "Bleedout Time ( You die when you are unconscious for this long ).";
@@ -10,10 +10,16 @@ class A3G_Template_BleedoutTime {
 	texts[] = { "30 seconds", "1 minute", "2 minutes", "3 minutes", "4 minutes", "5 minutes", "10 minutes", "Never" };
 	default = 600;
 };
-
-class A3G_Template_Spacer2 {
-	title = "====================================================================================================";
+class A3G_Template_Spacer1 {
+	title = "";
+	values[] = { 0 };
+	texts[] = {""};
+	default = 0;
 };
+
 class A3G_Template_Title2 {
-	title = "-> A3G Mission Template Custom Parameters:";
+	title = "> Custom Parameters:";
+	values[] = { 0 };
+	texts[] = {""};
+	default = 0;
 };

@@ -1,6 +1,7 @@
-player createDiarySubject ["A3G_Template", "A3G"];
+player createDiarySubject ["A3G_Template", "A3G Template"];
 player createDiaryRecord["A3G_Template", ["Credits", "Cephei did everything :^)<br/>
-I guess Trusty for the spectator script<br/>
+Trusty for the spectator script<br/>
 Nife for inspiration<br/>
 Broma for showing me how not to do it<br/>
+Crusty for doing nothing wrong<br/>
 :)"]];
