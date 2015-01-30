@@ -3,12 +3,10 @@ class Mission
 {
 	addOns[]=
 	{
-		"map_vr",
-		"BWA3_Units"
+		"map_vr"
 	};
 	addOnsAuto[]=
 	{
-		"BWA3_Units",
 		"map_vr"
 	};
 	randomSeed=1578369;
@@ -29,55 +27,6 @@ class Mission
 		minute=35;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
-	};
-	class Groups
-	{
-		items=1;
-		class Item0
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=4;
-				class Item0
-				{
-					position[]={3954.2947,5,4235.4502};
-					id=0;
-					side="WEST";
-					vehicle="BWA3_Rifleman_Fleck";
-					player="PLAYER COMMANDER";
-					leader=1;
-					skill=0.60000002;
-				};
-				class Item1
-				{
-					position[]={3922.2302,5,4227.1753};
-					id=1;
-					side="WEST";
-					vehicle="BWA3_Rifleman_Fleck";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item2
-				{
-					position[]={3966.7068,5,4190.9731};
-					id=2;
-					side="WEST";
-					vehicle="BWA3_Rifleman_Fleck";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-				class Item3
-				{
-					position[]={4013.2522,5,4224.0728};
-					id=3;
-					side="WEST";
-					vehicle="BWA3_Rifleman_Fleck";
-					player="PLAY CDG";
-					skill=0.60000002;
-				};
-			};
-		};
 	};
 };
 class Intro
