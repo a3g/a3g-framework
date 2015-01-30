@@ -12,4 +12,9 @@ class A3G_Template {
 			postInit = 1;
 		};
 	};
+
+	class Respawn {
+		file = "functions\respawn";
+		class HandleRespawn {};
+	}
 };

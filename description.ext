@@ -19,7 +19,7 @@ class CfgFunctions {
 };
 
 class CfgRespawnTemplates {
-	#include "a3g-spectatorcam\cfgRespawnTemplates.hpp"
+	#include "include\cfgRespawnTemplates.hpp"
 };
 
 class Params {

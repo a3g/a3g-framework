@@ -1,7 +1,7 @@
 // Respawn type selection. Decides how and if players can respawn.
 // Can be one of: NONE, INSTANT, BASE, GROUP or SIDE.
 // Unless you're very sure what you want to do, leave this at BASE.
-// This setting is perfect for 99% of missions, including TvT.
+// This setting is perfect for 99.99% of missions, including TvT.
 
 respawn = "BASE";
 
@@ -10,7 +10,7 @@ respawn = "BASE";
 // Again, unless you're very sure you want to change these, don't touch them.
 // These settings are perfect for 99% of missions.
 
-respawnTemplates[] = {"A3G_SpectatorCam", "Base"};
+respawnTemplates[] = {"A3G_RespawnSystem", "Base"};
 
 
 // For TvT, or other missions where you want an actual respawn, you might want to use these settings instead:
