@@ -12,4 +12,4 @@ if ("A3G_Template_AllowJip" call bis_fnc_getParamValue >= 1) then {
 };
 
 // Handle server side client side custom scripting
-[] call compile preprocessFile "config\generic\initPlayerServer.sqf";
+[] call A3G_Template_fnc_InitPlayerServer;

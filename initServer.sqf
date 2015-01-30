@@ -3,4 +3,4 @@
 // ------------------------------------------------------------------------------------------------
 
 // Handle server side custom scripting
-[] call compile preprocessFile "config\generic\initServer.sqf";
+[] call A3G_Template_fnc_InitServer;

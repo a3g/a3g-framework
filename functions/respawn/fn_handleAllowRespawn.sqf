@@ -1,0 +1,1 @@
+_this call compile preprocessFile "a3g-spectatorcam\scripts\initCam.sqf";

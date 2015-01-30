@@ -46,6 +46,7 @@ disabledAI = 1;									// Disables AI in the lobby
 joinUnassigned = 0;								// Makes players fill slots automatically
 enableDebugConsole = 1;							// Enables debug console for admins
 respawnDialog = 0;								// Disables the scoreboard when respawning
+respawnOnStart = 0;								// Don't wanna have people respawn at start
 
 
 // ------------------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 // ------------------------------------------------------------------------------------------------
 
 // Handle briefing
-[] call compile preprocessFile "config\briefing.sqf";
+[] call A3G_Template_fnc_Briefing;
 
 // Fade into mission
 titleText ["", "BLACK FADED", 0];
@@ -30,4 +30,4 @@ titleText ["", "BLACK IN", 3];
 ] spawn BIS_fnc_typeText2;
 
 // Handle client side custom scripting
-[] call compile preprocessFile "config\generic\initPlayerLocal.sqf";
+[] call A3G_Template_fnc_InitPlayerLocal;

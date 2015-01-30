@@ -10,12 +10,12 @@ respawn = "BASE";
 // Again, unless you're very sure you want to change these, don't touch them.
 // These settings are perfect for 99% of missions.
 
-respawnTemplates[] = {"A3G_RespawnSystem", "Base"};
+respawnTemplates[] = {"A3G_Respawn_DenyRespawn", "Base"};
 
 
 // For TvT, or other missions where you want an actual respawn, you might want to use these settings instead:
 
-// respawnTemplates[] = {"Base", "Counter", "MenuPosition"};
+// respawnTemplates[] = {"A3G_Respawn_AllowRespawn", "Base", "Counter"};
 
 
 // Check out all options here: https://community.bistudio.com/wiki/Arma_3_Respawn#Respawn_Templates
