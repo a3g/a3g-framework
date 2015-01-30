@@ -10,10 +10,10 @@ respawn = "BASE";
 // Again, unless you're very sure you want to change these, don't touch them.
 // These settings are perfect for 99% of missions.
 
-respawnTemplates[] = {"A3G_SpectatorCam", "Base", "Tickets", "EndMission"};
+respawnTemplates[] = {"A3G_SpectatorCam", "Base"};
 
 
-// For TvT, you might want to use these settings instead:
+// For TvT, or other missions where you want an actual respawn, you might want to use these settings instead:
 
 // respawnTemplates[] = {"Base", "Counter", "MenuPosition"};
 
