@@ -20,12 +20,6 @@
 					Mission description
 				</Original>
 			</Key>
-			<Key ID="A3G_str_author">
-				<Original>
-					<!-- Put your name here -->
-					Mission author
-				</Original>
-			</Key>
 		</Container>
 	</Package>
 </Project>

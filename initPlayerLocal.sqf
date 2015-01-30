@@ -21,7 +21,7 @@ titleText ["", "BLACK IN", 3];
 		],
 		["","<br/>"],
 		[
-			localize "A3G_str_author",
+			getText (missionConfigFile >> "author"),
 			"align = 'center',
 			shadow = '1',
 			size = '0.5'"
