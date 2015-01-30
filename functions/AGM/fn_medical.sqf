@@ -8,4 +8,5 @@ if( isNil "AGM_Medical_Module" ) then {
 	AGM_Medical_PreventDeathWhileUnconscious = 1;
 	AGM_Medical_SingleBandage = 1;
 	AGM_Medical_EnableOverdosing = 0;
+	AGM_Medical_DisableScreams = 1;
 };
