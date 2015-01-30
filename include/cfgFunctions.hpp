@@ -1,12 +1,15 @@
 class A3G_Template {
 	class Generic {
-		file = "functions\generic";
 		class PreInit {
+			file = "functions\fn_preInit.sqf";
 			preInit = 1;
 		};
 		class PostInit {
+			file = "functions\fn_postInit.sqf";
 			postInit = 1;
 		};
+
+		file = "functions\generic";
 		class TitleCard {
 			postInit = 1;
 		};
