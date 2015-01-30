@@ -10,3 +10,6 @@ if ("A3G_Template_AllowJip" call bis_fnc_getParamValue >= 1) then {
 		_player setDamage 1;
 	};
 };
+
+// Handle server side client side custom scripting
+[] call compile preprocessFile "config\generic\initPlayerServer.sqf";

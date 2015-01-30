@@ -3,4 +3,4 @@
 // ------------------------------------------------------------------------------------------------
 
 // Handle server side custom scripting
-[] call compile preprocessFile "config\generic\serverSide.sqf";
+[] call compile preprocessFile "config\generic\initServer.sqf";

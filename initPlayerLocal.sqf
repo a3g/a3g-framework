@@ -30,4 +30,4 @@ titleText ["", "BLACK IN", 3];
 ] spawn BIS_fnc_typeText2;
 
 // Handle client side custom scripting
-[] call compile preprocessFile "config\generic\clientSide.sqf";
+[] call compile preprocessFile "config\generic\initPlayerLocal.sqf";
