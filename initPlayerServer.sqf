@@ -3,12 +3,12 @@
 // ------------------------------------------------------------------------------------------------
 
 // Handle JIP / Parameter
-if ("A3G_Template_AllowJip" call bis_fnc_getParamValue >= 1) then {
-	_player = _this select 0;
-	_didJIP = _this select 1;
-	if (_didJIP && time > ("A3G_Template_JipTime" call bis_fnc_getParamValue)) then {
-		_player setDamage 1;
-	};
+_player = _this select 0;
+_didJIP = _this select 1;
+_jipTime = "A3G_Template_JipTime" call bis_fnc_getParamValue;
+
+if(_jipTime != -1 && _jipTime < time && _didJIP) then {
+	_player setDamage 1;
 };
 
 // Handle server side client side custom scripting
