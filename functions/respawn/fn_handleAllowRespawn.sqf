@@ -1,1 +1,1 @@
-_this call compile preprocessFile "a3g-spectatorcam\scripts\initCam.sqf";
+_this call A3G_SpectatorCam_fnc_InitCam;

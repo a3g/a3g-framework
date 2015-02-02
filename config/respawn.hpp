@@ -1,7 +1,7 @@
 // Respawn type selection. Decides how and if players can respawn.
 // Can be one of: NONE, INSTANT, BASE, GROUP or SIDE.
 // Unless you're very sure what you want to do, leave this at BASE.
-// This setting is perfect for 99.99% of missions, including TvT.
+// This setting is perfect for 99.99% of missions, including TvT and including missions with or without respawn.
 
 respawn = "BASE";
 
@@ -15,7 +15,7 @@ respawnTemplates[] = {"A3G_Respawn_DenyRespawn", "Base"};					// Does not allow 
 
 // For missions where you want an actual respawn, you might want to use these settings instead:
 
-// respawnTemplates[] = {"A3G_Respawn_AllowRespawn", "Base", "Counter"};	// Allows respawn, but shows a spectatorcamera
+// respawnTemplates[] = {"A3G_Respawn_AllowRespawn", "Base", "Counter"};	// Allows respawn, but shows a spectator camera
 
 
 // For TvT with respawn, this might be a good idea:
