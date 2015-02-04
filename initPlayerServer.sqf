@@ -12,4 +12,4 @@ if(_jipTime != -1 && _jipTime < time && _didJIP) then {
 };
 
 // Handle server side client side custom scripting
-[] call A3G_Template_fnc_InitPlayerServer;
+_this call A3G_Template_fnc_InitPlayerServer;

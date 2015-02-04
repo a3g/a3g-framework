@@ -30,4 +30,4 @@ titleText ["", "BLACK IN", 3];
 ] spawn BIS_fnc_typeText2;
 
 // Handle client side custom scripting
-[] call A3G_Template_fnc_InitPlayerLocal;
+_this call A3G_Template_fnc_InitPlayerLocal;
