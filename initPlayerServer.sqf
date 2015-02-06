@@ -11,5 +11,9 @@ if(_jipTime != -1 && _jipTime < time && _didJIP) then {
 	_player setDamage 1;
 };
 
+// Make an event for firing, this is needed for the protection zone
+_player addEventHandler ["Fired", A3G_Template_fnc_SafeZoneEventHandler];
+
+
 // Handle server side client side custom scripting
 _this call A3G_Template_fnc_InitPlayerServer;

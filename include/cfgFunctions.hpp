@@ -19,6 +19,12 @@ class A3G_Template {
 		class HandleDenyRespawn {};
 	}
 
+	class Safezone {
+		file = "functions\safezone";
+		class MakeSafeZone {};
+		class SafezoneEventHandler {};
+	};
+
 	class Custom {
 		class InitPlayerLocal {
 			file = "config\generic\initPlayerLocal.sqf";
