@@ -8,34 +8,41 @@
 
 class CfgDebriefing {
 	#include "include\cfgDebriefing.hpp"
+
+	#include "config\missionConfigFile\cfgDebriefing.hpp"
 };
 
 class CfgFunctions {
 	#include "include\cfgFunctions.hpp"
 	#include "a3g-loadout\cfgFunctions.hpp"
-	#include "a3g-spectatorcam\cfgFunctions.hpp"
+	#include "a3g-spectator-cam\cfgFunctions.hpp"
 
-	#include "config\cfgFunctions.hpp"
+	#include "config\missionConfigFile\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
 	#include "include\cfgRespawnTemplates.hpp"
+
+	#include "config\missionConfigFile\cfgRespawnTemplates.hpp"
 };
 
 class Params {
 	#include "include\params.hpp"
-	#include "config\parameters.hpp"
+
+	#include "config\missionConfigFile\params.hpp"
 };
 
 class RscTitles {
-	#include "a3g-spectatorcam\rscTitles.hpp"
+	#include "a3g-spectator-cam\rscTitles.hpp"
+
+	#include "config\missionConfigFile\rscTitles.hpp"
 };
 
-#include "config\metaData.hpp"
 #include "config\loadouts.hpp"
+#include "config\metaData.hpp"
 #include "config\respawn.hpp"
 
-#include "config\generic\description.ext"
+#include "config\missionConfigFile\description.ext"
 
 
 // ------------------------------------------------------------------------------------------------
@@ -53,6 +60,6 @@ respawnOnStart = 0;								// Don't wanna have people respawn at start
 // ----------------------------------------- Presentation -----------------------------------------
 // ------------------------------------------------------------------------------------------------
 
-onLoadName = "@A3G_str_missionNameShort";
-onLoadMission = "@A3G_str_missionDescription";
+onLoadName = "@A3G_Template_str_missionNameShort";
+onLoadMission = "@A3G_Template_str_missionDescription";
 loadScreen = "config\logo\logo.paa";

@@ -1,3 +1,4 @@
+// Extension file to class Params. Put stuff here if it needs to be in class Params { };
 // Add your own parameters here, that should appear in the multiplayer lobby
 
 /*

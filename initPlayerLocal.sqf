@@ -13,7 +13,7 @@ titleText ["", "BLACK IN", 3];
 [
 	[
 		[
-			localize "A3G_str_missionNameShort",
+			localize "A3G_Template_str_missionNameShort",
 			"align = 'center',
 			shadow = '1',
 			size = '1',
