@@ -4,3 +4,9 @@
 [submodule "a3g-spectatorcam"]
 	path = a3g-spectatorcam
 	url = https://github.com/a3g/a3g-spectatorcam
+[submodule "master"]
+	path = master
+	url = https://github.com/a3g/a3g-spectator-cam
+[submodule "a3g-spectator-cam"]
+	path = a3g-spectator-cam
+	url = https://github.com/a3g/a3g-spectator-cam
