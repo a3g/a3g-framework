@@ -8,7 +8,7 @@ _didJIP = _this select 1;
 _jipTime = "A3G_Template_JipTime" call bis_fnc_getParamValue;
 
 if(_jipTime != -1 && _jipTime < time && _didJIP) then {
-	_player setDamage 1;
+  _player setDamage 1;
 };
 
 // Make an event for firing, this is needed for the protection zone

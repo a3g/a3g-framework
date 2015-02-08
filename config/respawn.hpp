@@ -10,17 +10,17 @@ respawn = "BASE";
 // Again, unless you're very sure you want to change these, don't touch them.
 // These settings are perfect for 99% of missions:
 
-respawnTemplates[] = {"A3G_Respawn_DenyRespawn", "Base"};					// Does not allow respawn, ie. "permadeath".
+respawnTemplates[] = {"A3G_Respawn_DenyRespawn", "Base"};         // Does not allow respawn, ie. "permadeath".
 
 
 // For missions where you want an actual respawn, you might want to use these settings instead:
 
-// respawnTemplates[] = {"A3G_Respawn_AllowRespawn", "Base", "Counter"};	// Allows respawn, but shows a spectator camera
+// respawnTemplates[] = {"A3G_Respawn_AllowRespawn", "Base", "Counter"};  // Allows respawn, but shows a spectator camera
 
 
 // For TvT with respawn, this might be a good idea:
 
-// respawnTemplates[] = {"Base", "Counter"}; 								// Allows respawn, but no spectator camera
+// respawnTemplates[] = {"Base", "Counter"};                // Allows respawn, but no spectator camera
 
 
 // Check out all options here: https://community.bistudio.com/wiki/Arma_3_Respawn#Respawn_Templates

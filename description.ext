@@ -7,35 +7,35 @@
 // ------------------------------------------------------------------------------------------------
 
 class CfgDebriefing {
-	#include "include\cfgDebriefing.hpp"
+  #include "include\cfgDebriefing.hpp"
 
-	#include "config\missionConfigFile\cfgDebriefing.hpp"
+  #include "config\missionConfigFile\cfgDebriefing.hpp"
 };
 
 class CfgFunctions {
-	#include "include\cfgFunctions.hpp"
-	#include "a3g-loadout\cfgFunctions.hpp"
-	#include "a3g-spectator-cam\cfgFunctions.hpp"
+  #include "include\cfgFunctions.hpp"
+  #include "a3g-loadout\cfgFunctions.hpp"
+  #include "a3g-spectator-cam\cfgFunctions.hpp"
 
-	#include "config\missionConfigFile\cfgFunctions.hpp"
+  #include "config\missionConfigFile\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
-	#include "include\cfgRespawnTemplates.hpp"
+  #include "include\cfgRespawnTemplates.hpp"
 
-	#include "config\missionConfigFile\cfgRespawnTemplates.hpp"
+  #include "config\missionConfigFile\cfgRespawnTemplates.hpp"
 };
 
 class Params {
-	#include "include\params.hpp"
+  #include "include\params.hpp"
 
-	#include "config\missionConfigFile\params.hpp"
+  #include "config\missionConfigFile\params.hpp"
 };
 
 class RscTitles {
-	#include "a3g-spectator-cam\rscTitles.hpp"
+  #include "a3g-spectator-cam\rscTitles.hpp"
 
-	#include "config\missionConfigFile\rscTitles.hpp"
+  #include "config\missionConfigFile\rscTitles.hpp"
 };
 
 #include "config\loadouts.hpp"
@@ -49,11 +49,11 @@ class RscTitles {
 // ---------------------------------------- Standard stuff ----------------------------------------
 // ------------------------------------------------------------------------------------------------
 
-disabledAI = 1;									// Disables AI in the lobby
-joinUnassigned = 0;								// Makes players fill slots automatically
-enableDebugConsole = 1;							// Enables debug console for admins
-respawnDialog = 0;								// Disables the scoreboard when respawning
-respawnOnStart = 0;								// Don't wanna have people respawn at start
+disabledAI = 1;                                 // Disables AI in the lobby
+joinUnassigned = 0;                             // Makes players fill slots automatically
+enableDebugConsole = 1;                         // Enables debug console for admins
+respawnDialog = 0;                              // Disables the scoreboard when respawning
+respawnOnStart = 0;                             // Don't wanna have people respawn at start
 
 
 // ------------------------------------------------------------------------------------------------
