@@ -6,7 +6,7 @@
 
 	Parameter(s):
 	#0 STRING - Markername
-	#1 (Optional) BOOL - true to show small spheres to indicate the extent of the protection zone (default: false)
+	#1 (Optional) BOOL - true to show arrows to indicate the extent of the protection zone (default: false)
 
 	Returns:
 	BOOL - TRUE when done
