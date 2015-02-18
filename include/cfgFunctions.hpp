@@ -1,16 +1,23 @@
 class A3G_Template {
-  class Generic {
-    file = "functions\generic";
-    class Diary {
-      postInit = 1;
-    };
-  };
 
   class AGM {
     file = "functions\agm";
     class Medical {
       postInit = 1;
     };
+  };
+
+  class General {
+    file = "functions\general";
+    class Diary {
+      postInit = 1;
+    };
+  };
+
+  class Loot {
+    file = "functions\loot";
+    class RemoveLoot {};
+    class LootWatchdog {};
   };
 
   class Respawn {
@@ -23,26 +30,21 @@ class A3G_Template {
     file = "functions\safezone";
     class MakeSafeZone {};
     class SafezoneEventHandler {};
-  };
+  };  
 
-  class Loot {
-    file = "functions\loot";
-    class RemoveLoot {};
-    class LootWatchdog {};
-  };
-
-  class Custom {
+  class Config {
     class InitPlayerLocal {
-      file = "config\generic\initPlayerLocal.sqf";
+      file = "config\init\initPlayerLocal.sqf";
     };
     class InitPlayerServer {
-      file = "config\generic\initPlayerServer.sqf";
+      file = "config\init\initPlayerServer.sqf";
     };
     class InitServer {
-      file = "config\generic\initServer.sqf";
+      file = "config\init\initServer.sqf";
     }
     class Briefing {
-      file = "config\briefing.sqf";
+      file = "config\general\briefing.sqf";
     };
+    
   };
 };

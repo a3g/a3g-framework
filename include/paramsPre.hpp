@@ -17,17 +17,3 @@ class A3G_Template_JipTime {
   texts[] = { "1 minute", "2 minutes", "3 minutes", "4 minutes", "5 minutes", "10 minutes", "Never" };
   default = -1;
 };
-
-class A3G_Template_Spacer1 {
-  title = "";
-  values[] = { 0 };
-  texts[] = {""};
-  default = 0;
-};
-
-class A3G_Template_Title2 {
-  title = "> Custom Parameters:";
-  values[] = { 0 };
-  texts[] = {""};
-  default = 0;
-};

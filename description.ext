@@ -9,7 +9,7 @@
 class CfgDebriefing {
   #include "include\cfgDebriefing.hpp"
 
-  #include "config\missionConfigFile\cfgDebriefing.hpp"
+  #include "config\classes\cfgDebriefing.hpp"
 };
 
 class CfgFunctions {
@@ -17,13 +17,13 @@ class CfgFunctions {
   #include "a3g-loadout\cfgFunctions.hpp"
   #include "a3g-spectator-cam\cfgFunctions.hpp"
 
-  #include "config\missionConfigFile\cfgFunctions.hpp"
+  #include "config\classes\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
   #include "include\cfgRespawnTemplates.hpp"
 
-  #include "config\missionConfigFile\cfgRespawnTemplates.hpp"
+  #include "config\classes\cfgRespawnTemplates.hpp"
 };
 
 class Mission {
@@ -31,22 +31,24 @@ class Mission {
 };
 
 class Params {
-  #include "include\params.hpp"
+  #include "include\paramsPre.hpp"
+  #include "config\parameters\templates.hpp"
+  #include "include\paramsPost.hpp"
 
-  #include "config\missionConfigFile\params.hpp"
+  #include "config\parameters\custom.hpp"
 };
 
 class RscTitles {
   #include "a3g-spectator-cam\rscTitles.hpp"
 
-  #include "config\missionConfigFile\rscTitles.hpp"
+  #include "config\classes\rscTitles.hpp"
 };
 
-#include "config\loadouts.hpp"
-#include "config\metaData.hpp"
-#include "config\respawn.hpp"
+#include "config\general\loadouts.hpp"
+#include "config\general\metaData.hpp"
+#include "config\general\respawn.hpp"
 
-#include "config\missionConfigFile\description.ext"
+#include "config\classes\description.ext"
 
 
 // ------------------------------------------------------------------------------------------------
