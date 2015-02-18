@@ -21,7 +21,7 @@ class A3G_Template_RemoveLoot {
   title = "Prevent AI equipment from being picked up?";
   values[] = { 0, 1, 2 };
   texts[] = { "No", "Only weapons", "Everything" };
-  default = 2;
+  default = 1;
 };
 
 class A3G_Template_Spacer1 {
