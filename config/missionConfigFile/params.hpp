@@ -11,7 +11,7 @@ class A3G_Template_SomeParameter {
 */
 
 
-// Some common parameters, uncomment to use:
+// Some common parameters, uncomment to use, comment to disable:
 
 // Creates a parameter that provides a setting to change the mission start time in hourly intervals
 /*
@@ -25,3 +25,11 @@ class A3G_Template_Daytime {
   isGlobal = 1;
 };
 */
+
+// Creates a parameter that allows you to turn off looting of enemy AI
+class A3G_Template_RemoveLoot {
+  title = "Prevent AI equipment from being picked up?";
+  values[] = { 0, 1, 2 };
+  texts[] = { "No", "Only weapons", "Everything" };
+  default = 1;
+};

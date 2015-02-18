@@ -17,12 +17,6 @@ class A3G_Template_JipTime {
   texts[] = { "1 minute", "2 minutes", "3 minutes", "4 minutes", "5 minutes", "10 minutes", "Never" };
   default = -1;
 };
-class A3G_Template_RemoveLoot {
-  title = "Prevent AI equipment from being picked up?";
-  values[] = { 0, 1, 2 };
-  texts[] = { "No", "Only weapons", "Everything" };
-  default = 1;
-};
 
 class A3G_Template_Spacer1 {
   title = "";
