@@ -25,6 +25,12 @@ class A3G_Template {
     class SafezoneEventHandler {};
   };
 
+  class Loot {
+    file = "functions\loot";
+    class RemoveLoot {};
+    class LootWatchdog {};
+  };
+
   class Custom {
     class InitPlayerLocal {
       file = "config\generic\initPlayerLocal.sqf";
