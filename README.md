@@ -13,7 +13,7 @@ How-To
 Important
 =========
 - The only files you need to edit are in the `config` folder and `stringTable.xml`, leave everything else alone.
-- The github zip download on the right does NOT include the submodules, grab them from the actual projects instead ( click the name above in the folder view ) or use the releases download.
+- The github zip download on the right does NOT include the submodules, grab them from the actual projects instead ( click the name above in the folder view ), use the releases download, or grab them [here](https://github.com/a3g/a3g-loadout) and [here](https://github.com/a3g/a3g-spectator-cam).
 
 Features
 ========
