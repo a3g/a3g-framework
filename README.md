@@ -17,8 +17,16 @@ Important
 
 Features
 ========
-- [] Integrated and pre-configured [loadout system](https://github.com/a3g/a3g-loadout).
-- [] Integrated and pre-configured [spectator system](https://github.com/a3g/a3g-spectator-cam).
-- [] Safezone system.
-- [] New default values for AGM medical
-- 
+- Integrated and pre-configured [loadout system](https://github.com/a3g/a3g-loadout).
+- Integrated and pre-configured [spectator system](https://github.com/a3g/a3g-spectator-cam).
+- Highly usable safezone system.
+- New default values for AGM medical.
+- Decentralized mission related files.
+- Premade respawn templates to cover all usage scenarios, such as allowing or disallowing respawn, fully integrated with the spectator camera.
+- Automated mission failure once all players are dead.
+- Briefing template.
+- Loot prevention script. Usable as a mission parameter.
+- AGM bleedout timer as mission parameter.
+- Changes to the look and feel, including mission titles, debriefing sections and more.
+- Highly customizable, due to individual access to just about every class you might ever want, while still retaining the advantages of a framework.
+- Takes care of all the little annoying things, that you tend to forget.
