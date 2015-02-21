@@ -1,6 +1,8 @@
 _projectile = _this select 6;
 _deleted = false;
 
+if( isNil "A3G_Template_Safezone_Markers" ) exitWith {};
+
 {
   if( _projectile distance getMarkerPos _x < (getMarkerSize _x) select 0) then {
     hint "You can not use weapons inside protection zones!";
