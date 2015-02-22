@@ -5,6 +5,7 @@ class End1 {
   picture = "mil_circle";
   pictureColor[] = { 0.0, 0.3, 0.6, 1 };
 };
+
 class Loser {
   title = "Mission Failed";
   subtitle = "Everyone died";

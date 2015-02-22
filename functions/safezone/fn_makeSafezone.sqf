@@ -19,8 +19,14 @@ if( !isServer ) exitWith {};
 _markerName = _this select 0;
 _shown = if ( count _this > 1 ) then { _this select 1 } else { false };
 
+// Make markers holding array
 if( isNil "A3G_Template_Safezone_Markers" ) then {
   A3G_Template_Safezone_Markers = [];
+};
+
+// Make projectiles holding array
+if ( isNil "A3G_Template_Safezone_Projectiles" ) then {
+  A3G_Template_Safezone_Projectiles = [];
 };
 
 _markerRadiusX = getMarkerSize _markerName select 0;
