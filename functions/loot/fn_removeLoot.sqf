@@ -1,3 +1,5 @@
+private ["_unit", "_mode"];
+
 _unit = _this select 0;
 
 // Mode: 1 = remove weapons only, 2 = remove everything

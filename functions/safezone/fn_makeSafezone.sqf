@@ -12,6 +12,8 @@
   BOOL - TRUE when done
 */
 
+private ["_markerName", "_shown", "_markerRadiusX", "_markerPosX", "_markerPosY", "_offsetX", "_angle", "_i", "_newPosX", "_newPosY"];
+
 if( !isServer ) exitWith {};
 
 _markerName = _this select 0;

@@ -1,3 +1,5 @@
+private ["_projectile", "_deleted", "_prj"];
+
 _projectile = _this select 6;
 _deleted = false;
 

@@ -1,3 +1,5 @@
+private ["_allAi", "_mode"];
+
 while { true } do {
   _allAi = allUnits - ( playableUnits + switchableUnits );
   {
