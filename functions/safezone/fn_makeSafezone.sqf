@@ -2,7 +2,7 @@
   Author: Cephei
 
   Description:
-  Makes a safezone, in which guns cannot be shot and grenades cannot be thrown. Does also prevent people from firing or throwing things INTO the safezone. Does nothing on clients. Hides marker being used. Marker needs to be perfect circle, ovals and rectangles intentionally don't work. This is because intersection tests on circles are trivial, while intersection tests with rectangles and ovals are not, or simply: Performance reasons.
+  Makes a safezone, in which guns cannot be shot and grenades cannot be thrown. Does also prevent people from firing or throwing things INTO the safezone. Needs to be run on all machines, including server. Marker needs to be perfect circle, ovals and rectangles intentionally don't work. This is because intersection tests on circles ( spheres really ) are trivial, while intersection tests with rectangles and ovals are not, or simply: Performance reasons.
 
   Parameter(s):
   #0 STRING - Markername
@@ -14,15 +14,19 @@
 
 private ["_markerName", "_shown", "_markerRadiusX", "_markerPosX", "_markerPosY", "_offsetX", "_angle", "_i", "_newPosX", "_newPosY"];
 
-if( !isServer ) exitWith {};
-
 _markerName = _this select 0;
 _shown = if ( count _this > 1 ) then { _this select 1 } else { false };
+
+_markerName setMarkerAlpha 0;
 
 // Make markers holding array
 if( isNil "A3G_Template_Safezone_Markers" ) then {
   A3G_Template_Safezone_Markers = [];
 };
+
+A3G_Template_Safezone_Markers pushBack _markerName;
+
+if( !isServer ) exitWith { true };
 
 _markerRadiusX = getMarkerSize _markerName select 0;
 
@@ -43,8 +47,5 @@ if(_shown) then {
     "Sign_Arrow_F" createVehicle [_newPosX, _newPosY, 0];
   };
 };
-
-A3G_Template_Safezone_Markers pushBack _markerName;
-_markerName setMarkerAlpha 0;
 
 true
