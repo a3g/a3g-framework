@@ -3,7 +3,7 @@
 // ------------------------------------------------------------------------------------------------
 
 if( "A3G_Template_RemoveLoot" call bis_fnc_getParamValue >= 1 ) then {
-  //["A3G_Template_Loot_EventId", "onEachFrame", A3G_Template_fnc_LootWatchdog] call bis_fnc_addStackedEventHandler;
+  [] spawn A3G_Template_fnc_LootWatchdog;
 };
 
 
