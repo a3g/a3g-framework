@@ -1,5 +1,4 @@
 class A3G_Template {
-
   class AGM {
     file = "functions\agm";
     class Medical {};
@@ -50,5 +49,4 @@ class A3G_Template {
       file = "config\parameters\defaults.sqf";
     };
   };
-
 };
