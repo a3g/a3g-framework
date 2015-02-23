@@ -18,6 +18,7 @@ class A3G_Template {
     file = "functions\loot";
     class RemoveLoot {};
     class LootWatchdog {};
+    class LockVehiclesWatchdog {};
   };
 
   class Respawn {
@@ -44,7 +45,12 @@ class A3G_Template {
     }
     class Briefing {
       file = "config\general\briefing.sqf";
+      postInit = 1;
     };
-    
+    class DefaultParameters {
+      file = "config\parameters\defaults.sqf";
+      postInit = 1;
+    };
   };
+
 };

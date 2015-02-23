@@ -5,9 +5,9 @@
 // Handle JIP / Parameter
 _player = _this select 0;
 _didJIP = _this select 1;
-_jipTime = "A3G_Template_JipTime" call bis_fnc_getParamValue;
+A3G_Template_Parameters_JipTime = ["A3G_Template_JipTime", -1] call bis_fnc_getParamValue;
 
-if(_jipTime != -1 && _jipTime < time && _didJIP) then {
+if(A3G_Template_Parameters_JipTime != -1 && A3G_Template_Parameters_JipTime < time && _didJIP) then {
   _player setDamage 1;
 };
 

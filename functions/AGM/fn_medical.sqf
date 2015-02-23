@@ -13,7 +13,7 @@ if( isNil "AGM_Medical_Module" ) then {
 };
 
 // This one is _always_ set, because it's a parameter
-AGM_Medical_MaxUnconsciousnessTime = "A3G_Template_BleedoutTime" call bis_fnc_getParamValue;
+AGM_Medical_MaxUnconsciousnessTime = ["A3G_Template_BleedoutTime", -1] call bis_fnc_getParamValue;
 
 
 // Write down medical settings to A3G Template Diary
