@@ -1,11 +1,10 @@
 private ["_unit", "_mode"];
 
 _unit = _this select 0;
+_mode = _this select 1;
 
 // Mode: 1 = remove weapons only, 2 = remove everything
-_mode = "A3G_Template_RemoveLoot" call bis_fnc_getParamValue;
-
-switch (_mode) do {
+switch (A3G_Template_Loot_RemoveLootMode) do {
   case 1: {
     removeAllWeapons _unit;
   };

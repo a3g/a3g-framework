@@ -1,6 +1,7 @@
 class A3G_Template {
   class AGM {
     file = "functions\agm";
+    class LogMedicalSettings {};
     class Medical {};
   };
 
@@ -45,8 +46,8 @@ class A3G_Template {
     class Briefing {
       file = "config\general\briefing.sqf";
     };
-    class DefaultParameters {
-      file = "config\parameters\defaults.sqf";
+    class OverrideParameters {
+      file = "config\parameters\override.sqf";
     };
   };
 };
