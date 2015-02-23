@@ -7,8 +7,10 @@
 // AGM_Medical_MaxUnconsciousnessTime = -1;
 
 // Forces JIP time
-// A3G_Template_Parameters_JipTime = 5;
-
+/*
+waitUntil { !isNil "A3G_Template_Parameters_JipTime" };
+A3G_Template_Parameters_JipTime = 5;
+*/
 
 // Forces removal of loot
 // [] spawn A3G_Template_fnc_LootWatchdog;

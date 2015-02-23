@@ -2,16 +2,16 @@ class A3G_Template {
 
   class AGM {
     file = "functions\agm";
-    class Medical {};
+    class Medical {
+      postInit = 1;
+    };
   };
 
   class General {
     file = "functions\general";
-    class Diary {};
-    class Init {
+    class Diary {
       postInit = 1;
     };
-    class OnPlayerConnected {};
   };
 
   class Loot {
@@ -45,9 +45,11 @@ class A3G_Template {
     }
     class Briefing {
       file = "config\general\briefing.sqf";
+      postInit = 1;
     };
     class DefaultParameters {
       file = "config\parameters\defaults.sqf";
+      postInit = 1;
     };
   };
 
