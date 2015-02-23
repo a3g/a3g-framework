@@ -3,12 +3,10 @@ class Mission
 {
 	addOns[]=
 	{
-		"map_vr",
-		"rhsusf_c_troops"
+		"map_vr"
 	};
 	addOnsAuto[]=
 	{
-		"rhsusf_c_troops",
 		"map_vr"
 	};
 	randomSeed=1578369;
@@ -29,43 +27,6 @@ class Mission
 		minute=35;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
-	};
-	class Groups
-	{
-		items=1;
-		class Item0
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={3919.5615,5,4153.3608};
-					azimut=-83.303001;
-					id=0;
-					side="WEST";
-					vehicle="rhsusf_army_ocp_rifleman";
-					player="PLAYER COMMANDER";
-					leader=1;
-					skill=0.60000002;
-					init="[""asd1"", true] call A3G_Template_fnc_MakeSafezone;";
-				};
-			};
-		};
-	};
-	class Markers
-	{
-		items=1;
-		class Item0
-		{
-			position[]={3899.1858,5,4164.644};
-			name="asd1";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=20;
-			b=20;
-		};
 	};
 };
 class Intro
