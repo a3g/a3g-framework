@@ -7,11 +7,10 @@
 // AGM_Medical_MaxUnconsciousnessTime = -1;
 
 // Forces JIP time
-// A3G_Template_Parameters_JipTime = 5;
-
+// if ( isServer ) then { A3G_Template_Parameters_JipTime = -1; };
 
 // Forces removal of loot
-// [] spawn A3G_Template_fnc_LootWatchdog;
+// if ( isServer ) then { [] spawn A3G_Template_fnc_LootWatchdog; };
 
 // Forces locking of AI vehicles
-// [] spawn A3G_Template_fnc_LockVehiclesWatchdog;
+// if ( isServer ) then { [] spawn A3G_Template_fnc_LockVehiclesWatchdog; };

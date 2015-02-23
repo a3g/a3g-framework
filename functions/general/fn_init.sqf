@@ -11,6 +11,9 @@ if( isServer ) then {
     [] spawn A3G_Template_fnc_LockVehiclesWatchdog;
   };
 
+  A3G_Template_Parameters_JipTime = ["A3G_Template_JipTime", -1] call bis_fnc_getParamValue;
+
+
   // Handle server side custom scripting
   [] call A3G_Template_fnc_InitServer;
 };
@@ -72,3 +75,4 @@ if ( !isDedicated ) then {
 // ------------------------------------------------------------------------------------------------
 
 [] call A3G_Template_fnc_Medical;
+[] call A3G_Template_fnc_DefaultParameters;

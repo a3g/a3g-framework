@@ -4,4 +4,5 @@ Trusty for the spectator script<br/>
 Nife for inspiration<br/>
 Broma for showing me how not to do it<br/>
 Crusty for doing nothing wrong<br/>
+A shitton of coffee and staying awake at night<br/>
 :)"]];
