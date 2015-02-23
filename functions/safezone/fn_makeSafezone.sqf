@@ -24,11 +24,6 @@ if( isNil "A3G_Template_Safezone_Markers" ) then {
   A3G_Template_Safezone_Markers = [];
 };
 
-// Make projectiles holding array
-if ( isNil "A3G_Template_Safezone_Projectiles" ) then {
-  A3G_Template_Safezone_Projectiles = [];
-};
-
 _markerRadiusX = getMarkerSize _markerName select 0;
 
 if(_shown) then {

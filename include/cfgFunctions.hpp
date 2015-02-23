@@ -30,7 +30,6 @@ class A3G_Template {
     file = "functions\safezone";
     class MakeSafeZone {};
     class SafezoneEventHandler {};
-    class SafezoneWatchdog {};
   };  
 
   class Config {
