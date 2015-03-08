@@ -16,6 +16,7 @@ class CfgFunctions {
   #include "include\cfgFunctions.hpp"
   #include "a3g-loadout\cfgFunctions.hpp"
   #include "a3g-spectator-cam\cfgFunctions.hpp"
+  #include "a3g-safezone\cfgFunctions.hpp"
 
   #include "config\classes\cfgFunctions.hpp"
 };

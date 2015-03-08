@@ -4,3 +4,7 @@
 [submodule "a3g-spectator-cam"]
 	path = a3g-spectator-cam
 	url = https://github.com/a3g/a3g-spectator-cam
+[submodule "a3g-safzeone"]
+	path = a3g-safzeone
+	url = https://github.com/a3g/a3g-safzeone
+	branch = master

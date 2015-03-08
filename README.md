@@ -1,5 +1,5 @@
-A3G mission template
-====================
+A3G Framework
+=============
 Basically it's a starting point for making a not-terrible mission.
 
 How-To
