@@ -34,11 +34,6 @@ if ( !isDedicated ) then {
 // ------------------------------------------------------------------------------------------------
 
 if ( !isDedicated ) then {
-  if( !isNil "A3G_Template_Safezone_Markers" ) then {
-    // Make an event for firing, this is needed for the protection zone
-    player addEventHandler ["Fired", A3G_Template_fnc_SafeZoneEventHandler];
-  };
-
   [] call A3G_Template_fnc_Diary;
   [] call A3G_Template_fnc_Briefing;
 
