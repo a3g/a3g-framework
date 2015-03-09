@@ -7,22 +7,22 @@
 // ------------------------------------------------------------------------------------------------
 
 class CfgDebriefing {
-  #include "include\cfgDebriefing.hpp"
+  #include "includes\cfgDebriefing.hpp"
 
   #include "config\classes\cfgDebriefing.hpp"
 };
 
 class CfgFunctions {
-  #include "include\cfgFunctions.hpp"
-  #include "a3g-loadout\cfgFunctions.hpp"
-  #include "a3g-spectator-cam\cfgFunctions.hpp"
-  #include "a3g-safezone\cfgFunctions.hpp"
+  #include "includes\modules\a3g-loadout\cfgFunctions.hpp"
+  #include "includes\modules\a3g-safezone\cfgFunctions.hpp"
+  #include "includes\modules\a3g-spectator-cam\cfgFunctions.hpp"
+  #include "includes\cfgFunctions.hpp"
 
   #include "config\classes\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
-  #include "include\cfgRespawnTemplates.hpp"
+  #include "includes\cfgRespawnTemplates.hpp"
 
   #include "config\classes\cfgRespawnTemplates.hpp"
 };
@@ -32,16 +32,15 @@ class Mission {
 };
 
 class Params {
-  #include "include\paramsPre.hpp"
+  #include "includes\paramsPre.hpp"
   #include "config\parameters\templates.hpp"
-  #include "include\paramsPost.hpp"
+  #include "includes\paramsPost.hpp"
 
   #include "config\parameters\custom.hpp"
 };
 
 class RscTitles {
-  #include "a3g-spectator-cam\rscTitles.hpp"
-
+  #include "includes\modules\a3g-spectator-cam\rscTitles.hpp"
   #include "config\classes\rscTitles.hpp"
 };
 
@@ -57,11 +56,11 @@ class RscTitles {
 // ------------------------------------------------------------------------------------------------
 
 disabledAI = 1;                                 // Disables AI in the lobby
-joinUnassigned = 0;                             // Makes players fill slots automatically
 enableDebugConsole = 1;                         // Enables debug console for admins
 respawnDialog = 0;                              // Disables the scoreboard when respawning
-respawnOnStart = 0;                             // Don't wanna have people respawn at start
 
+//respawnOnStart = 0;                             // Don't wanna have people respawn at start
+//joinUnassigned = 0;                             // Makes players fill slots automatically
 
 // ------------------------------------------------------------------------------------------------
 // ----------------------------------------- Presentation -----------------------------------------
