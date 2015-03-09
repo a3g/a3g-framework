@@ -2,6 +2,10 @@ A3G Framework
 =============
 Basically it's a starting point for making a not-terrible mission.
 
+Usable right now?
+-----------------
+![Build status: Not good](https://img.shields.io/badge/stable-nah-red.svg)
+
 How-To
 ======
 - Go to the editor, open the map you want to make a mission on, hit save and give it a name.
