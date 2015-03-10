@@ -4,7 +4,7 @@ Basically it's a starting point for making a not-terrible mission.
 
 Usable right now?
 -----------------
-![Build status: Not good](https://img.shields.io/badge/stable-nah-red.svg)
+![Build status: Not good](https://img.shields.io/badge/Dont use right now-Big changes coming soon-red.svg)
 
 How-To
 ======
