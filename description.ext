@@ -15,10 +15,10 @@ class CfgDebriefing {
 };
 
 class CfgFunctions {
+  #include "framework\cfgFunctions.hpp"
   #define A3G_Framework_state_Functions
   #include "modules\modules.hpp"
   #undef A3G_Framework_state_Functions
-  #include "framework\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
@@ -46,3 +46,5 @@ class RscTitles {
 #define A3G_Framework_state_Description
 #include "modules\modules.hpp"
 #undef A3G_Framework_state_Description
+
+#include "mission\config\description.ext"
