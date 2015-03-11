@@ -25,5 +25,5 @@ class A3G_Framework {
     file = "includes\functions\respawn";
     class HandleAllowRespawn {};
     class HandleDenyRespawn {};
-  }
+  };
 };
