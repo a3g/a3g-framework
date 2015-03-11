@@ -13,3 +13,4 @@
 
 
 #include "standard-settings\module.hpp"
+#include "agm-default-medical\module.hpp"
