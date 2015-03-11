@@ -1,0 +1,1 @@
+_this call A3G_SpectatorCam_fnc_InitCam;
