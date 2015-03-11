@@ -1,6 +1,6 @@
 private ["_string"];
 
-// Write down medical settings to A3G Template Diary
+// Write down medical settings to A3G Framework Diary
 _string = format [
 "CoefDamage: %1<br/>
 CoefBleeding: %2<br/>
@@ -35,4 +35,4 @@ DisableScreams: %15<br/>",
   AGM_Medical_DisableScreams
 ];
 
-player createDiaryRecord["A3G_Template", ["AGM Medical", _string]];
+player createDiaryRecord["A3G", ["AGM Medical", _string]];
