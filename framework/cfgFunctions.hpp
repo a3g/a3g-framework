@@ -15,15 +15,4 @@ class A3G_Framework {
       file = "mission\init\initServer.sqf";
     };
   };
-
-  class General {
-    file = "includes\functions\general";
-    class Diary {};
-  };
-
-  class Respawn {
-    file = "includes\functions\respawn";
-    class HandleAllowRespawn {};
-    class HandleDenyRespawn {};
-  };
 };
