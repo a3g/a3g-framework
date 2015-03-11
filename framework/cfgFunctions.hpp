@@ -15,4 +15,11 @@ class A3G_Framework {
       file = "mission\init\initServer.sqf";
     };
   };
+  
+  class Log {
+    file = "framework\functions\log";
+    class Credits {
+      postInit = 1;
+    };
+  };
 };
