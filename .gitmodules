@@ -1,4 +1,4 @@
 [submodule "modules"]
-	path = a3g-framework-modules
+	path = modules
 	url = https://github.com/a3g/a3g-framework-modules
 	branch = master
