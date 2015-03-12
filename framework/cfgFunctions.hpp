@@ -18,7 +18,10 @@ class A3G_Framework {
   
   class Log {
     file = "framework\functions\log";
-    class Credits {
+    class LogCredits {
+      postInit = 1;
+    };
+    class LogModules {
       postInit = 1;
     };
   };
