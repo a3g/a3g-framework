@@ -9,11 +9,11 @@ class Mission
 	{
 		"map_vr"
 	};
-	randomSeed=1578369;
+	randomSeed=12020740;
 	class Intel
 	{
-		briefingName="@A3G_Template_str_missionNameFull";
-		overviewText="@A3G_Template_str_missionDescription";
+		briefingName="@A3G_Framework_str_MissionNameFull";
+		overviewText="@A3G_Framework_str_MissionDescription";
 		startWeather=0;
 		startWind=0.099999994;
 		startWaves=0.099999994;
@@ -39,7 +39,7 @@ class Intro
 	{
 		"map_vr"
 	};
-	randomSeed=9442407;
+	randomSeed=4657375;
 	class Intel
 	{
 		timeOfChanges=1800.0002;
@@ -68,7 +68,7 @@ class OutroWin
 	{
 		"map_vr"
 	};
-	randomSeed=2805901;
+	randomSeed=3889671;
 	class Intel
 	{
 		timeOfChanges=1800.0002;
@@ -97,7 +97,7 @@ class OutroLoose
 	{
 		"map_vr"
 	};
-	randomSeed=7513266;
+	randomSeed=15629851;
 	class Intel
 	{
 		timeOfChanges=1800.0002;

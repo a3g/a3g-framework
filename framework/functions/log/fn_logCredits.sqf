@@ -1,13 +1,13 @@
 player createDiarySubject ["A3G-Framework", "A3G Framework"];
 player createDiaryRecord["A3G-Framework", ["Credits",
-"Special mentions:<br/><br/>
-Cephei did everything :^)<br/>
-<s>Trusty for the spectator script</s>NVM LOL IT'S A MODULE NOW<br/>
-Nife for inspiration<br/>
-Broma for showing me how not to do it<br/>
-Crusty for doing nothing wrong<br/>
-A shitton of coffee and staying awake at night<br/>
+"<font color='#ff0000'>Special mentions:</font><br/><br/>
+Trusty, for the spectator script. NVM LOL IT'S A MODULE NOW!<br/>
+Nife, for the inspiration<br/>
+Broma, for showing me how <font color='#ff0000'>not</font> to do it<br/>
+Crusty, for doing nothing wrong<br/>
+A shitton of coffee for staying awake at night<br/>
 Literal Autism<br/>
-UO for being fucking fags<br/>
+UO, for being fucking retarded fags<br/>
+<br/>
 :)"
 ]];

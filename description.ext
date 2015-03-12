@@ -10,9 +10,11 @@ class Modules {
 };
 
 class CfgDebriefing {
+  #include "framework\config\cfgDebriefing.hpp"
   #define A3G_Framework_state_Debriefing
   #include "modules\modules.hpp"
   #undef A3G_Framework_state_Debriefing
+  #include "mission\config\cfgDebriefing.hpp"
 };
 
 class CfgFunctions {
@@ -20,12 +22,14 @@ class CfgFunctions {
   #define A3G_Framework_state_Functions
   #include "modules\modules.hpp"
   #undef A3G_Framework_state_Functions
+  #include "mission\config\cfgFunctions.hpp"
 };
 
 class CfgRespawnTemplates {
   #define A3G_Framework_state_RespawnTemplates
   #include "modules\modules.hpp"
   #undef A3G_Framework_state_RespawnTemplates
+  #include "mission\config\cfgRespawnTemplates.hpp"
 };
 
 class Mission {
@@ -33,19 +37,25 @@ class Mission {
 };
 
 class Params {
+  #include "framework\config\paramsPre.hpp"
   #define A3G_Framework_state_Params
   #include "modules\modules.hpp"
   #undef A3G_Framework_state_Params
+  #include "framework\config\paramsPost.hpp"
+  #include "mission\config\params.hpp"
 };
 
 class RscTitles {
   #define A3G_Framework_state_RscTitles
   #include "modules\modules.hpp"
   #undef A3G_Framework_state_RscTitles
+  #include "mission\config\rscTitles.hpp"
 };
 
+#include "framework\config\description.hpp"
 #define A3G_Framework_state_Description
 #include "modules\modules.hpp"
 #undef A3G_Framework_state_Description
-
 #include "mission\config\description.ext"
+#include "mission\metaData.hpp"
+#include "mission\respawn.hpp"
