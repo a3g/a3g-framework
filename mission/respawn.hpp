@@ -10,12 +10,13 @@ respawn = "BASE";
 // Again, unless you're very sure you want to change these, don't touch them.
 // These settings are perfect for 99% of missions:
 
-respawnTemplates[] = {"A3G_Respawn_DenyRespawn", "Base"};         // Does not allow respawn, ie. "permadeath".
+// WARNING: THESE ARE HARDCODED RIGHT NOW. A3G_SpectatorCam and AutoFail only exist when the corresponding module is enabled. So enable it.
+respawnTemplates[] = {"A3G_SpectatorCam", "AutoFail", "Base"};         // Does not allow respawn, ie. "permadeath".
 
 
 // For missions where you want an actual respawn, you might want to use these settings instead:
 
-// respawnTemplates[] = {"A3G_Respawn_AllowRespawn", "Base", "Counter"};  // Allows respawn, but shows a spectator camera
+// respawnTemplates[] = {"A3G_SpectatorCam", "Base", "Counter"};  // Allows respawn, but shows a spectator camera
 
 
 // For TvT with respawn, this might be a good idea:
