@@ -4,6 +4,8 @@ Basically, this is where you put your mission specific code. Edit the files in t
 #Files
 - metaData.hpp - Change player numbers, author and gametype here.
 - respawn.hpp - Change respawn related functionality here.
+- logo.paa - Loadscreen logo, replace with different logo ( keep the filename ) to change it.
+- briefing.sqf - Set up the briefing here.
 
 #Folders
 - config - All missionConfigFile related files are here.
