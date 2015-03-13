@@ -2,7 +2,7 @@ if (!( player diarySubjectExists "A3GFramework" )) then {
   player createDiarySubject ["A3GFramework", "A3G Framework"];
 };
 
-player createDiaryRecord["A3G-Framework", ["Credits",
+player createDiaryRecord["A3GFramework", ["Credits",
 "<font color='#ff0000'>Special mentions:</font><br/><br/>
 Trusty, for the spectator script. NVM LOL IT'S A MODULE NOW!<br/>
 Nife, for the inspiration<br/>

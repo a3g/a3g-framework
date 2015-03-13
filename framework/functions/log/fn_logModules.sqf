@@ -17,4 +17,4 @@ if (!( player diarySubjectExists "A3GFramework" )) then {
   player createDiarySubject ["A3GFramework", "A3G Framework"];
 };
 
-player createDiaryRecord["A3G-Framework", ["Modules", _string]];
+player createDiaryRecord["A3GFramework", ["Modules", _string]];
