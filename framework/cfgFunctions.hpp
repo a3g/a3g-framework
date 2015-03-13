@@ -14,6 +14,10 @@ class A3G_Framework {
     class InitServer {
       file = "mission\init\initServer.sqf";
     };
+	class Briefing {
+	  file = "mission\briefing.sqf";
+	  postInit = 1;
+	};
   };
   
   class Log {
