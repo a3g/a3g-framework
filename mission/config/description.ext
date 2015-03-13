@@ -1,1 +1,13 @@
 // In case there is something else you need to add to the description.ext, that's not covered by the specialized files.
+
+// Disables AI in the lobby
+disabledAI = 1;
+
+// Enables debug console for admins. LEAVE THIS ON. It's only for admins, and they can use it to fix a mission on the fly.
+enableDebugConsole = 1;
+
+// Disables the scoreboard when respawning
+respawnDialog = 0;
+
+// Makes players fill slots automatically
+//joinUnassigned = 0;
