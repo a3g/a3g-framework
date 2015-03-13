@@ -1,4 +1,4 @@
-if ( !player diarySubjectExists "A3GFramework" ) then {
+if (!( player diarySubjectExists "A3GFramework" )) then {
   player createDiarySubject ["A3GFramework", "A3G Framework"];
 };
 
