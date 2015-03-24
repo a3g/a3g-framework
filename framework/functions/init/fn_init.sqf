@@ -4,7 +4,7 @@
 
 if( isServer ) then {
   // Handle server side scripting
-  [] call A3G_Framework_fnc_InitServer;
+  [] call A3GFramework_fnc_InitServer;
 };
 
 
@@ -14,7 +14,7 @@ if( isServer ) then {
 
 if ( !isDedicated ) then {
   // Handle server side per client scripting
-  [[player], "A3G_Framework_fnc_OnPlayerConnected", false, false, true] call bis_fnc_MP;
+  [[player], "A3GFramework_fnc_OnPlayerConnected", false, false, true] call bis_fnc_MP;
 };
 
 
@@ -24,5 +24,5 @@ if ( !isDedicated ) then {
 
 if ( !isDedicated ) then {
   // Handle client side scripting
-  [player] call A3G_Framework_fnc_InitPlayerLocal;
+  [player] call A3GFramework_fnc_InitPlayerLocal;
 };
