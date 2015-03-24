@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Project name="A3G Mission Template">
+<Project name="A3G Framework">
   <Package name="Descriptors">
     <Container name="Mission">
-      <Key ID="A3G_Framework_str_MissionNameFull">
+      <Key ID="A3GFramework_str_MissionNameFull">
         <Original>
           <!-- Put your full mission name here -->
           COOP 64 Mission title 1.0
         </Original>       
       </Key>
-      <Key ID="A3G_Framework_str_MissionNameShort">
+      <Key ID="A3GFramework_str_MissionNameShort">
         <Original>
           <!-- Put your short mission name here -->
           Mission title
         </Original>       
       </Key>
-      <Key ID="A3G_Framework_str_MissionDescription">
+      <Key ID="A3GFramework_str_MissionDescription">
         <Original>
           <!-- Put your mission description here -->
           Mission description
