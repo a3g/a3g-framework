@@ -1,5 +1,5 @@
 # A3G Framework
-![Build status: Release Candidate 1](https://img.shields.io/badge/Build Status-RC1-blue.svg)
+![Version RC1](https://img.shields.io/badge/Version-RC1-blue.svg)
 
 ## Download
 The github zip download on the right does _not_ include any modules, grab them from the [actual project](https://github.com/a3g/a3g-framework-modules) instead or use the [releases download](https://github.com/a3g/a3g-framework/releases). The latter method may not always be up-to-date.
