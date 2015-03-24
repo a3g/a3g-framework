@@ -7,3 +7,4 @@ These files govern initialization of your mission code. Check out [this website]
 | `initPlayerLocal.sqf`  | Executed locally when player joins mission (includes both mission start and JIP).          |
 | `initPlayerServer.sqf` | Executed only on server when a player joins mission (includes both mission start and JIP). |
 | `initServer.sqf`       | Executed only on server when mission is started.                                           |
+| `init.sqf`             | Executed when mission is started (before briefing screen).                                 |

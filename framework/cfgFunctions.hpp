@@ -14,6 +14,9 @@ class A3GFramework {
     class InitServer {
       file = "mission\init\initServer.sqf";
     };
+	class Init {
+	  file = "mission\init\init.sqf";
+	};
 	class Briefing {
 	  file = "mission\briefing.sqf";
 	  postInit = 1;
