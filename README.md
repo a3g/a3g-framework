@@ -1,6 +1,4 @@
 # A3G Framework
-Basically it's a starting point for making a not-terrible mission.
-
 ![Build status: Release Candidate 1](https://img.shields.io/badge/Build Status-RC1-blue.svg)
 
 ## Download
