@@ -1,4 +1,4 @@
-class A3G_Framework {
+class A3GFramework {
   class Init {
     file = "framework\functions\init";
     class Init { 
