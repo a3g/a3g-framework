@@ -3,7 +3,7 @@
 
 // Example
 /*
-class A3G_Template_SomeParameter {
+class SomeParameter {
   title = "The name how it appears in the parameter list";
   values[] = { 1, 2, 3, 4, 5 };
   texts[] = { "One", "Two", "Three", "Four", "Five" };
