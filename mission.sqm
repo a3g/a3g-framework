@@ -12,8 +12,8 @@ class Mission
 	randomSeed=12020740;
 	class Intel
 	{
-		briefingName="@A3G_Framework_str_MissionNameFull";
-		overviewText="@A3G_Framework_str_MissionDescription";
+		briefingName="@A3GFramework_str_MissionNameFull";
+		overviewText="@A3GFramework_str_MissionDescription";
 		startWeather=0;
 		startWind=0.099999994;
 		startWaves=0.099999994;
