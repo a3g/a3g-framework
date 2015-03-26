@@ -6,7 +6,7 @@ class A3GFramework_Spacer1 {
 };
 
 class A3GFramework_Title2 {
-  title = "> Custom Parameters:";
+  title = "> Mission Parameters:";
   values[] = { 0 };
   texts[] = {""};
   default = 0;
