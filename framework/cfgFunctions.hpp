@@ -1,7 +1,7 @@
 class A3GFramework {
   class Init {
     file = "framework\functions\init";
-    class Init { 
+    class OnMissionStart { 
       postInit = 1;
     };
     class OnPlayerConnected {};
