@@ -29,6 +29,14 @@ class CfgFunctions {
   #include "mission\config\cfgFunctions.hpp"
 };
 
+class CfgNotifications {
+  #define A3GFramework_state_Notifications
+  #include "modules\modules.hpp"
+  #undef A3GFramework_state_Notifications
+  
+  #include "mission\config\cfgDebriefing.hpp"
+};
+
 class CfgRespawnTemplates {
   #define A3GFramework_state_RespawnTemplates
   #include "modules\modules.hpp"
