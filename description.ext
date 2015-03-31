@@ -34,7 +34,7 @@ class CfgNotifications {
   #include "modules\modules.hpp"
   #undef A3GFramework_state_Notifications
   
-  #include "mission\config\cfgDebriefing.hpp"
+  #include "mission\config\cfgNotifications.hpp"
 };
 
 class CfgRespawnTemplates {
