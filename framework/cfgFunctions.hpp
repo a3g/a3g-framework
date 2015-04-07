@@ -17,10 +17,6 @@ class A3GFramework {
 	class Init {
 	  file = "mission\init\init.sqf";
 	};
-	class Briefing {
-	  file = "mission\briefing.sqf";
-	  postInit = 1;
-	};
   };
   
   class Log {
